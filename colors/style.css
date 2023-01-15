@@ -1,0 +1,12 @@
+h1 {
+	color: dodgerblue;
+}
+h2 {
+	color: #800000;
+}
+h3 {
+	color: rgb(60, 179, 113);
+}
+h4 {
+	color: hsl(0.3turn 60% 45% / 0.7);
+}
