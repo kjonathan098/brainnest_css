@@ -83,18 +83,22 @@ a :hover{
     margin: 0 0 5px 0;
 }
 
+button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+    background-color: red;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .hero-main-left button {
     background-color: var(--blue-background);
     color: var(--secondary-white);
-    font-size: large;
-    width: 150px;
-    padding: 10px;
     border: none;   
-    border-radius: 5px;
-}
-
-.hero-main-left button:hover {
-    cursor: pointer;
 }
 
 .hero-main-right img{
@@ -129,21 +133,66 @@ a :hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 300px;
 }
 
 .main-section-bottom-box img {
-    width: 300px;
+    width: 100%;
     height: auto;
     border-radius: 5px;
     border: 2px solid var(--blue-background);
     transition: transform .2s;
 }
 
-.main-section-bottom-box img:hover{
+.main-section-bottom-box img:hover {
     transform: scale(1.1)
 }
 
-.qoute-section{
+.qoute-section {
     background-color: var(--background-grey);
-    
+    padding: 100px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: var(--blue-dark);
+    margin: 0px;
+}
+.qoute-section p {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.call-action-section{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.action-section-box {
+    width: 800px;
+    height: 150px;
+    background-color: var(--blue-background);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-section-box button {
+    height: 41px;
+    background-color: transparent;
+    border: 2px solid var(--secondary-white);
+    color: var(--main-white);
+}
+
+.footer-section {
+    background-color: var(--blue-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    color: var(--main-white);
 }
